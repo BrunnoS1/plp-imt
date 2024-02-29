@@ -10,6 +10,7 @@ int main() {
         scanf("%d", &valores[i]);
     }
 
+    //bubble
     for (i = 0; i < 10 - 1; i++) {
         for (j = i + 1; j < 10; j++) {
             if (valores[i] < valores[j]) {
@@ -23,7 +24,6 @@ int main() {
 
     printf("\nValores em ordem decrescente:\n");
     for (i = 0; i < 10; i++) {
-
         printf("%d\n", valores[i]);
     }
     return 0;
