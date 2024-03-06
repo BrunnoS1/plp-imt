@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() 
 {
 	int numero = 42; // Uma variável int
